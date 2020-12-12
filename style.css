@@ -1,0 +1,286 @@
+/*Menu*/
+.menu {
+  float: left;
+  width: 115px; 
+  height: auto;
+  text-align: center;            
+  box-shadow:
+  inset 0 -3em 3em white, 
+       0 0 0 2px white,
+       0.3em 0.3em 2em rgba(0,0,0);
+}
+.menu a 
+{
+  background-color: #d05d47;
+  color: white;
+  display: block;
+  padding: 12px; 
+  border: 1px solid white;
+  text-decoration: none; 
+}
+.menu a:hover {
+  background-color: #9a6c63; /* Dark grey background on mouse-over */
+}
+.menu a.active 
+{
+  background-color: #546978; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+/*Home Page*/
+body {
+  background-color: #008989;
+  font-family: "Lato", Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: inherit;
+}
+h1
+{
+  color: white;
+  text-align:center;
+}
+p
+{
+  color: white;
+}
+ #confusedWoman
+{
+  display: block;
+  margin-left: 35%;
+  width: 30%;
+  margin-top: 0%;
+
+}
+#fingerPointing
+{
+  width:3%;
+}
+#homep
+{
+  width:50%;
+  text-align: center;
+  margin-top:5%;
+  margin-left: 25%;
+}
+#homep2
+{
+  width:50%;
+  text-align: center;
+  margin-top: 0%;
+  word-wrap: break-word;
+  margin-left: 25%
+}
+
+/*AP Calculus Page*/
+a
+{
+  color: rgb(156, 71, 71);
+}
+#calcBody
+{
+  background-color: #9a6c63;
+  color: rgb(250, 232, 236);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#calcHead
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+mark
+{
+  background: rgba(0, 137, 137, 0.849);
+  color: white;
+}
+#derivativeGraphLabel
+{
+  color: white;
+  font-size: 1.5vw;
+  width:20%;
+  text-align: center; 
+  float: right;
+  margin-top:-30%;
+}
+
+#derivativeGraph 
+{
+    float: right;
+    width: 20%;
+    height: 15%;
+    margin-top: -25%;
+
+}
+div.calcdefinitions
+{
+  width:56%;
+  height: auto;
+  overflow-wrap: hidden;
+  font-size: 1em;
+  color: white;
+  margin-left:21%;
+  margin-top: 0%;
+}
+#calcvidlabel
+{
+  margin-top:5%;
+}
+/*AP Physics Page*/
+body#physicsbody
+{
+  background-color: #546978;
+  color: rgb(255, 255, 255);
+}
+h1#h1physics
+{
+  color: rgb(255, 255, 255);
+}
+#physicsHr
+{
+    box-shadow:
+    inset 0 -3em 3em white, 
+       0 0 0 2px #546978,
+       0.3em 0.3em 2em rgba(0,0,0);
+}
+#colphysics
+{
+  width:56%;
+  margin-left:15%;
+  margin-top: 0%
+}
+table, th, td {
+  width: auto;
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+
+}
+#physicsdefinitions
+{
+  font-size: 14px;
+  float: left;
+}
+hr
+{
+  width: 140vw;
+}
+h2#physicsh2
+{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+#physicsformulas
+{
+  width:180px;
+  overflow: hidden;
+  font-family: 'Times New Roman', Times, serif;
+  float: left;
+  box-shadow:
+  inset 0 -3em 3em rgba(0,0,0,0.1), 
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 2em rgba(0, 0, 0);
+}
+
+#velocitygraph
+{
+    width: 20%;
+    height: 15%;
+    float: right;
+    margin-top: -43%;
+}
+
+#distancegraph
+{
+    width: 20%;
+    height: 25%;
+    float: right;
+    margin-top: -20%;
+}
+/*Form Page*/
+.form
+{
+  color: white;
+}
+title{
+  color: black;
+}
+
+
+#formBody
+{
+  background-color: #b4840d;
+  color:white;
+}
+#formHeader
+{
+  color: white;
+}
+
+form
+{
+  border: thin;
+  margin: auto;
+  text-align:center;
+  position: relative;left:42%;
+  
+}
+
+.box
+{
+  width: 300px;
+  height: 300px;
+  box-shadow:
+  inset 0 -3em 3em rgba(0,0,0,0.1), 
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 2em rgba(0, 0, 0);
+    position: relative; left: 40%;
+}
+/*Letter*/
+#h1letter
+{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#letter
+{
+  width: 65vw;
+  text-align: justify;
+  text-justify: inter-word;
+  overflow: hidden;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 10px;
+  margin-left: 15%;
+}
+#letterh2
+{
+  font-size: 20px;
+  text-align: right;
+  margin-left:55%;
+  width:45%;
+  margin-top:1%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+
+}
+#myaddress
+{
+  display: block;
+  text-align: right;
+  margin-left:30%;
+  padding: 15px;
+  width: 50%;
+}
+#closing
+{
+  text-align: center;
+}
+.footer
+{ 
+  margin-top: 10%;
+  text-align: center;    
+  width: 100%;
+  color:white;
+}  
